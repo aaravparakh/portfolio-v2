@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      COMP 790-175 - Optical Neural Networks and Computing Systems | Praneeth Chakravarthula
+    
+  
+</title>
+<meta name="author" content="Praneeth Chakravarthula">
+<meta name="description" content="Monday/Wednesday, 10:10am-11:25am - FB141">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+<!-- Bootstrap Table -->
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+<!-- pseudocode -->
+
+
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://aaravparakh.github.io/blog/2024/course1/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+<!-- GeoJSON support via Leaflet -->
+
+
+<!-- diff2html -->
+
+
+
+
+
+
+    
+      <!-- Medium Zoom JS -->
+      <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+      <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+    
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    
+  
+    <!-- MathJax -->
+    <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          tags: 'ams',
+        },
+      };
+    </script>
+    <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+    <!-- Distill js -->
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
+  </head>
+
+  <body>
+<d-front-matter>
+    <script async type="text/json">
+      {
+            "title": "COMP 790-175 - Optical Neural Networks and Computing Systems",
+            "description": "Monday/Wednesday, 10:10am-11:25am - FB141",
+            "katex": {
+              "delimiters": [
+                {
+                  "left": "$",
+                  "right": "$",
+                  "display": false
+                },
+                {
+                  "left": "$$",
+                  "right": "$$",
+                  "display": true
+                }
+              ]
+            }
+          }
+    </script>
+  </d-front-matter>
+
+  
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm sticky-top" role="navigation">
+    <div class="container">
+      <!-- Always show the site title on the navbar -->
+      <a class="navbar-brand title font-weight-lighter" href="/">
+        
+          
+            <span class="font-weight-bold">Praneeth</span>
+          
+          
+          Chakravarthula
+        
+      </a>
+
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">about
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/courses/index.html">courses
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/publications/">publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/people/">people
+                    
+                  </a>
+                </li>
+              
+            
+          
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="post distill">
+      <d-title>
+        <h1>COMP 790-175 - Optical Neural Networks and Computing Systems</h1>
+        <p>Monday/Wednesday, 10:10am-11:25am - FB141</p>
+      </d-title>
+      
+
+      <d-article>
+        
+          <d-contents>
+            <nav class="l-text figcaption">
+              <h3>Contents</h3>
+              
+                <div>
+                  <a href="#instructor">Instructor</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#course-description">Course Description</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#course-objectives-ahd-outcomes">Course Objectives ahd Outcomes</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#prerequisites">Prerequisites</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#seminar-format">Seminar Format</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#schedule-and-study-material">Schedule and Study Material</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#projects-and-grading">Projects and Grading</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#course-policies">Course Policies</a>
+                </div>
+                
+              
+            </nav>
+          </d-contents>
+        
+        <h2 id="instructor">Instructor</h2>
+
+<p>Prof. Praneeth Chakravarthula<br>
+praneeth@cs.unc.edu<br>
+Office Hours: 11:30-12:30 on Mondays &amp; by appointment in SN 205 (also available over Zoom)</p>
+
+<p>TA: Insert name here<br>
+insert email here<br>
+Office Hours: 2:00-3:00 on Thursdays &amp; by appointment in FB 242 (also available over Zoom)</p>
+
+<hr>
+
+<h2 id="course-description">Course Description</h2>
+
+<p>This course covers an overview of machine learning and its application to imaging science, with a special focus on the integration of modern deep learning and optical technologies. 
+This course is for you if:</p>
+
+<ol>
+  <li>You work on AI/ML and image processing, and would like to learn about how AI/ML can be baked into the optics of cameras for efficient image acquisition and processing</li>
+  <li>You work on AI/ML and would like to learn how to accelerate the inference to the speed of light using optical neural networks</li>
+  <li>You work with optics and imaging systems (cameras, microscopes, MRI/CT, ultrasound, X-ray imaging, etc.) and you would like to learn more about machine learning/AI</li>
+  <li>You work with neither AI/ML nor imaging, but have a strong math and signal processing background, and are motivated to learn about both</li>
+</ol>
+
+<hr>
+
+<h2 id="course-objectives-and-outcomes">Course Objectives and Outcomes</h2>
+
+<p>This course is mainly a paper-reading seminar for Masters and PhD students interested in learning about a current topic of active research. It will be fast-paced and assumes a certain level of background knowledge in math, optics/imaging and programming (see prerequisites below) with a goal to help the students identify and work on an interesting final project. The final (main) project can be related to your current research. A good outcome of this course is for every student to implement projects at the intersection of optics and ML, and test some non-trivial hypotheses (definitely something better than classification of cats and dogs).</p>
+
+<p>Upon completion of this course, you will:</p>
+<ul>
+  <li>Understand the core concepts underlying optics and ML</li>
+  <li>Understand how to model and simulate various optical systems</li>
+  <li>Understand how to merge optical systems and ML frameworks</li>
+  <li>Be able to write ML code for optical system design.</li>
+</ul>
+
+<hr>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+  <li>Basic linear algebra – vectors, matrices, tensors, dimensional analysis</li>
+  <li>Signal processing – convolutions, Fourier transforms, linear systems</li>
+  <li>Basic optics – lenses, light as a ray and wave, cameras, image formation</li>
+  <li>Programming – Python, Pytorch or Tensorflow, MATLAB</li>
+</ul>
+
+<p>Before taking the class, you should be able to understand basic image formation in a camera and be able to read a recent ML conference paper and get a decent understanding of the basic concepts and ideas proposed in the paper (not necessarily a deep understanding of all details).</p>
+
+<hr>
+
+<h2 id="seminar-format">Seminar Format</h2>
+
+<p>For much of the semester, each class will involve the presentation and discussion of one paper. Before each class, everyone is required to have read the paper. Students will be divided into two groups. One group of students will present on Mondays and the other on Wednesdays. In a given class session, students in the presenting group will each be given a rotating role (described below). This role defines the lens through which they read the paper and determines what they prepare for the group in-class discussion. Note that two people will team up for each role, and the pairing will rotate each class. You and your partner should decide how to equally divide the work for a given role/paper/session. Students in the non-presenting group are also required to read the paper, complete a quick exercise (described below), and come to class ready to discuss. All students will obtain a thorough understanding of the chosen papers and will develop their paper reading, literature review, and prototyping skills.</p>
+
+<p>Presentation Roles:
+This seminar is organized around the different “roles” students play each week: Reviewer, Reviewer-2 (overly critical reviewer), Lab Rat, Indiana Jones, Code Ninja, Sherlock Holmes, John Doe.</p>
+
+<ul>
+  <li>Reviewer: Complete a full – critical but not necessarily negative – review of the paper. Answer all questions on the review form template provided.</li>
+  <li>Reviewer 2: Find faults and perform an overly critical review of the paper. What is missing in the paper? What could’ve been better?</li>
+  <li>Lab Rat: You are a newly minted PhD student/researcher. Propose an imaginary follow-up project that is possible only because of the existence and success of the current paper. Of course you are expected to NOT propose the future works mentioned in the paper and the follow-on papers that cite the current paper.</li>
+  <li>Indiana Jones: You will determine where this paper sits in the context of previous and subsequent work. Find and report an older paper cited by the current paper and a newer paper citing the current paper.</li>
+  <li>Code Ninja: Imagine this paper did not exist and you just had the core idea of the paper. Now implement a small but crucial part of the paper or a simplified version of the paper that would validate that the ideas in the paper will be a success.</li>
+  <li>Sherlock Holmes: Find out the background information on one of the paper authors. Where have they worked? What did they study? What background and/or previous projects might have led them to work on this one? Feel free to contact the authors and talk to them, but be courteous, polite and on topic. Mention that you are in Prof. Praneeth Chakravarthula’s course and this investigation is a part of it.</li>
+  <li>John Doe: If you are not in the presenting group, please come to the class with 1) a new tacky title for the paper and/or a new name for the algorithm it proposes, and 2) at least one question about the paper (either something you’re confused about or something you’d like to hear discussed more).</li>
+</ul>
+
+<hr>
+
+<h2 id="schedule-and-study-material">Schedule and Study Material:</h2>
+
+<p>Slides and any additional readings will be made available through Canvas and/or course website.</p>
+
+<p>Reading schedule (subject to change)</p>
+
+<p>Module One: Getting up to Speed – AL/ML and Diffractive Optics</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week:</th>
+      <th>Plan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Week 1</td>
+      <td>Plans</td>
+    </tr>
+    <tr>
+      <td>Week 2</td>
+      <td>plans</td>
+    </tr>
+    <tr>
+      <td>Week 3</td>
+      <td>plans</td>
+    </tr>
+    <tr>
+      <td>Week 4</td>
+      <td>plans</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Module Two: Optical Neural Networks</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week:</th>
+      <th>Plan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Week 5</td>
+      <td>Plans</td>
+    </tr>
+    <tr>
+      <td>Week 6</td>
+      <td>plans</td>
+    </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>plans</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>plans</td>
+    </tr>
+    <tr>
+      <td>Week 9</td>
+      <td>plans</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2 id="projects-and-grading">Projects and Grading</h2>
+
+<p>Final Project:<br>
+All students in the class will write a “mini-paper” as a final project. The paper should extend one or more papers we covered in the class. Students should write code and carry out additional experiments and then write up the results in a standard conference paper format.</p>
+
+<p>Students are welcome to work in groups on the final project. I will expect a group of two students to put twice as much work into the final project than for a sole-author project, and similarly for larger groups. I’d encourage students to not work alone and I won’t allow groups with five or more people without special permission. Students in groups are required to include a “contributions” paragraph in their paper that concretely lists each author’s contributions. The maximum paper length for a given final project write-up is 3 + n_students not including references or the contributions paragraph, where n_students is the number of people in the group that worked on the project.</p>
+
+<p>All groups will be required to submit a project proposal by the start of class on October 14th. The project proposal is a single-paragraph description of what you intend to do (experiments, datasets, methods, etc.) Groups will present their final projects during the final exam period. All students in each group are required to present some material during the final presentation.</p>
+
+<p>Grade Distribution:<br>
+This course will use a standard, 100-point grading scale (grades correspond to 590/790 due to Graduate School standards) and the grade distribution will be as follows:</p>
+
+<p>Readings, 60 points:<br>
+There will be 24 papers, and each student will be in the presenting role for 12 and the non-presenting role for the other 12. You can earn up to 4 points each time you present for completing the assignment for your role and presenting it to the class. When you aren’t presenting, you can earn up to 1 point by completing the non-presenting assignment and by participating in the class through live discussion and questions.</p>
+
+<p>Final Project, 40 points:<br>
+This grade will be divided as follows:</p>
+<ul>
+  <li>Proposal: 5 points</li>
+  <li>Novelty, 5 points: your project should propose something new (either a new application, method or a perspective).</li>
+  <li>Writing, 10 points: your paper should be readable, complete and situate itself appropriately among the related works. You should use the format and style of a standard SIGGRAPH conference paper.</li>
+  <li>Presentation, 10 points: your final presentation should be clear and provide a solid picture of what you did.</li>
+  <li>Code, 10 points: the code you write and submit for your final project should allow for complete reproduction of your results and be well-documented.</li>
+</ul>
+
+<hr>
+<h2 id="course-policies">Course Policies</h2>
+
+<p>Attendance, late work, and honor code:<br>
+If you miss a class without completing the corresponding assignment, you’ll get a zero for that session. If you miss a class where you are in a “presenting” role for that session, you must still create the presentation for that role before the class and you must find someone else to present it for you. If you miss a class where you’d be in a “non-presenting” role, to get credit for that session you need to complete the non-presenting assignment and send it to me before the start of class. There’s really no way to accept late work for the readings since it’s vital that we’re all reading the same papers at the same time. I also can’t accept the final project after the scheduled final exam slot since you need to present it then.</p>
+
+<p>All students are expected to follow the guidelines of the UNC honor code. In the context of this class, it is particularly important that you cite the source of different ideas, facts, or methods and do not claim someone else’s work as your own. If you are unsure about which actions violate that honor code, feel free to ask me.</p>
+
+<p>The University of North Carolina at Chapel Hill facilitates the implementation of reasonable accommodations, including resources and services, for students with disabilities, chronic medical conditions, a temporary disability or pregnancy complications resulting in barriers to fully accessing University courses, programs and activities. Accommodations are determined through the Office of Accessibility Resources and Service (ARS) for individuals with documented qualifying disabilities in accordance with applicable state and federal laws. See the ARS Website for contact information: https://ars.unc.edu or email ars@unc.edu.</p>
+
+<p>CAPS is strongly committed to addressing the mental health needs of a diverse student body through timely access to consultation and connection to clinically appropriate services, whether for short or long-term needs. Go to their website: https://caps.unc.edu/ or visit their facilities on the third floor of the Campus Health Services building for a walk-in evaluation to learn more. (source: Student Safety and Wellness Proposal for EPC, Sep 2018)</p>
+
+<p>Any student who is impacted by discrimination, harassment, interpersonal (relationship)
+violence, sexual violence, sexual exploitation, or stalking is encouraged to seek resources
+on campus or in the community. Please contact the Director of Title IX Compliance
+(Adrienne Allison – Adrienne.allison@unc.edu), Report and Response Coordinators in the
+Equal Opportunity and Compliance Office (reportandresponse@unc.edu), Counseling and
+Psychological Services (confidential), or the Gender Violence Services Coordinators
+(gvsc@unc.edu; confidential) to discuss your specific needs. Additional resources are
+available at safe.unc.edu.</p>
+
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
+      
+    </div>
+
+    <!-- Footer -->
+    
+  <footer class="sticky-bottom small-footer mt-3" role="contentinfo">
+    
+    
+    <div class="container py-1 text-right"> 
+      © Copyright 2025
+      Praneeth  Chakravarthula. 
+      
+      
+    </div>
+  </footer>
+
+<style>
+.small-footer {
+  font-size: 0.8rem; 
+  padding: 0 !important; 
+  text-align: right !important; 
+}
+
+.small-footer a {
+  font-size: 0.8rem; 
+  padding: 0 !important;
+}
+
+.small-footer .container {
+  padding: 0 !important;
+}
+
+</style>
+
+
+
+    <!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="/assets/js/mdb.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    
+
+
+
+    
+
+    
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+    
+
+  
+</body>
+</html>

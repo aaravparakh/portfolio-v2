@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://aaravparakh.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aaravparakh.github.io/" rel="alternate" type="text/html" /><updated>2025-06-01T19:52:48+00:00</updated><id>https://aaravparakh.github.io/feed.xml</id><title type="html">blank</title><entry><title type="html">a post with image galleries</title><link href="https://aaravparakh.github.io/blog/2024/photo-gallery/" rel="alternate" type="text/html" title="a post with image galleries" /><published>2024-12-04T01:59:00+00:00</published><updated>2024-12-04T01:59:00+00:00</updated><id>https://aaravparakh.github.io/blog/2024/photo-gallery</id><content type="html" xml:base="https://aaravparakh.github.io/blog/2024/photo-gallery/"><![CDATA[<p>The images in this post are all zoomable, arranged into different mini-galleries using different libraries.</p>
+
+<h2 id="lightbox2"><a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox2</a></h2>
+
+<p><a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg" /></a>
+<a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" /></a>
+<a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" /></a></p>
+
+<hr />
+
+<h2 id="photoswipe"><a href="https://photoswipe.com/">PhotoSwipe</a></h2>
+
+<div class="pswp-gallery pswp-gallery--single-column" id="gallery--getting-started">
+  <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-pswp-width="1669" data-pswp-height="2500" target="_blank">
+    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt="" />
+  </a>
+  <!-- cropped thumbnail: -->
+  <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg" data-pswp-width="1875" data-pswp-height="2500" data-cropped="true" target="_blank">
+    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt="" />
+  </a>
+  <!-- data-pswp-src with custom URL in href -->
+  <a href="https://unsplash.com" data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1666" target="_blank">
+    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" />
+  </a>
+  <!-- wrapped with any element: -->
+  <div>
+    <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1667" target="_blank">
+      <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" alt="" />
+    </a>
+  </div>
+</div>
+
+<hr />
+
+<h2 id="spotlight-js"><a href="https://nextapps-de.github.io/spotlight/">Spotlight JS</a></h2>
+
+<!-- Group 1 -->
+<div class="spotlight-group">
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg" />
+    </a>
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" />
+    </a>
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" />
+    </a>
+</div>
+<!-- Group 2 -->
+<div class="spotlight-group">
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg" />
+    </a>
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-200.jpg" />
+    </a>
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" />
+    </a>
+</div>
+
+<hr />
+
+<h2 id="venobox"><a href="https://veno.es/venobox/">Venobox</a></h2>
+
+<p><a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg" /></a>
+<a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" /></a>
+<a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" /></a></p>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="images" /><summary type="html"><![CDATA[this is what included image galleries could look like]]></summary></entry><entry><title type="html">insert title 3 here</title><link href="https://aaravparakh.github.io/blog/2024/course3/" rel="alternate" type="text/html" title="insert title 3 here" /><published>2024-08-03T00:00:00+00:00</published><updated>2024-08-03T00:00:00+00:00</updated><id>https://aaravparakh.github.io/blog/2024/course3</id><content type="html" xml:base="https://aaravparakh.github.io/blog/2024/course3/"><![CDATA[<h2 id="instructor">Instructor</h2>
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="course-description">Course Description</h2>
+
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="course-objectives-and-outcomes">Course Objectives and Outcomes</h2>
+
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="seminar-format">Seminar Format</h2>
+
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="schedule-and-study-material">Schedule and Study Material:</h2>
+
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="projects-and-grading">Projects and Grading</h2>
+
+<p>insert text here</p>
+
+<hr />
+<h2 id="course-policies">Course Policies</h2>
+
+<p>insert text here</p>]]></content><author><name></name></author><summary type="html"><![CDATA[insert date]]></summary></entry><entry><title type="html">Computational Imaging and Displays</title><link href="https://aaravparakh.github.io/blog/2024/course2/" rel="alternate" type="text/html" title="Computational Imaging and Displays" /><published>2024-08-02T00:00:00+00:00</published><updated>2024-08-02T00:00:00+00:00</updated><id>https://aaravparakh.github.io/blog/2024/course2</id><content type="html" xml:base="https://aaravparakh.github.io/blog/2024/course2/"><![CDATA[<h2 id="instructor">Instructor</h2>
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="course-description">Course Description</h2>
+
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="course-objectives-and-outcomes">Course Objectives and Outcomes</h2>
+
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="seminar-format">Seminar Format</h2>
+
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="schedule-and-study-material">Schedule and Study Material:</h2>
+
+<p>insert text here</p>
+
+<hr />
+
+<h2 id="projects-and-grading">Projects and Grading</h2>
+
+<p>insert text here</p>
+
+<hr />
+<h2 id="course-policies">Course Policies</h2>
+
+<p>insert text here</p>]]></content><author><name></name></author><summary type="html"><![CDATA[insert date]]></summary></entry><entry><title type="html">COMP 790-175 - Optical Neural Networks and Computing Systems</title><link href="https://aaravparakh.github.io/blog/2024/course1/" rel="alternate" type="text/html" title="COMP 790-175 - Optical Neural Networks and Computing Systems" /><published>2024-08-01T00:00:00+00:00</published><updated>2024-08-01T00:00:00+00:00</updated><id>https://aaravparakh.github.io/blog/2024/course1</id><content type="html" xml:base="https://aaravparakh.github.io/blog/2024/course1/"><![CDATA[<h2 id="instructor">Instructor</h2>
+
+<p>Prof. Praneeth Chakravarthula<br />
+praneeth@cs.unc.edu<br />
+Office Hours: 11:30-12:30 on Mondays &amp; by appointment in SN 205 (also available over Zoom)</p>
+
+<p>TA: Insert name here<br />
+insert email here<br />
+Office Hours: 2:00-3:00 on Thursdays &amp; by appointment in FB 242 (also available over Zoom)</p>
+
+<hr />
+
+<h2 id="course-description">Course Description</h2>
+
+<p>This course covers an overview of machine learning and its application to imaging science, with a special focus on the integration of modern deep learning and optical technologies. 
+This course is for you if:</p>
+
+<ol>
+  <li>You work on AI/ML and image processing, and would like to learn about how AI/ML can be baked into the optics of cameras for efficient image acquisition and processing</li>
+  <li>You work on AI/ML and would like to learn how to accelerate the inference to the speed of light using optical neural networks</li>
+  <li>You work with optics and imaging systems (cameras, microscopes, MRI/CT, ultrasound, X-ray imaging, etc.) and you would like to learn more about machine learning/AI</li>
+  <li>You work with neither AI/ML nor imaging, but have a strong math and signal processing background, and are motivated to learn about both</li>
+</ol>
+
+<hr />
+
+<h2 id="course-objectives-and-outcomes">Course Objectives and Outcomes</h2>
+
+<p>This course is mainly a paper-reading seminar for Masters and PhD students interested in learning about a current topic of active research. It will be fast-paced and assumes a certain level of background knowledge in math, optics/imaging and programming (see prerequisites below) with a goal to help the students identify and work on an interesting final project. The final (main) project can be related to your current research. A good outcome of this course is for every student to implement projects at the intersection of optics and ML, and test some non-trivial hypotheses (definitely something better than classification of cats and dogs).</p>
+
+<p>Upon completion of this course, you will:</p>
+<ul>
+  <li>Understand the core concepts underlying optics and ML</li>
+  <li>Understand how to model and simulate various optical systems</li>
+  <li>Understand how to merge optical systems and ML frameworks</li>
+  <li>Be able to write ML code for optical system design.</li>
+</ul>
+
+<hr />
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+  <li>Basic linear algebra – vectors, matrices, tensors, dimensional analysis</li>
+  <li>Signal processing – convolutions, Fourier transforms, linear systems</li>
+  <li>Basic optics – lenses, light as a ray and wave, cameras, image formation</li>
+  <li>Programming – Python, Pytorch or Tensorflow, MATLAB</li>
+</ul>
+
+<p>Before taking the class, you should be able to understand basic image formation in a camera and be able to read a recent ML conference paper and get a decent understanding of the basic concepts and ideas proposed in the paper (not necessarily a deep understanding of all details).</p>
+
+<hr />
+
+<h2 id="seminar-format">Seminar Format</h2>
+
+<p>For much of the semester, each class will involve the presentation and discussion of one paper. Before each class, everyone is required to have read the paper. Students will be divided into two groups. One group of students will present on Mondays and the other on Wednesdays. In a given class session, students in the presenting group will each be given a rotating role (described below). This role defines the lens through which they read the paper and determines what they prepare for the group in-class discussion. Note that two people will team up for each role, and the pairing will rotate each class. You and your partner should decide how to equally divide the work for a given role/paper/session. Students in the non-presenting group are also required to read the paper, complete a quick exercise (described below), and come to class ready to discuss. All students will obtain a thorough understanding of the chosen papers and will develop their paper reading, literature review, and prototyping skills.</p>
+
+<p>Presentation Roles:
+This seminar is organized around the different “roles” students play each week: Reviewer, Reviewer-2 (overly critical reviewer), Lab Rat, Indiana Jones, Code Ninja, Sherlock Holmes, John Doe.</p>
+
+<ul>
+  <li>Reviewer: Complete a full – critical but not necessarily negative – review of the paper. Answer all questions on the review form template provided.</li>
+  <li>Reviewer 2: Find faults and perform an overly critical review of the paper. What is missing in the paper? What could’ve been better?</li>
+  <li>Lab Rat: You are a newly minted PhD student/researcher. Propose an imaginary follow-up project that is possible only because of the existence and success of the current paper. Of course you are expected to NOT propose the future works mentioned in the paper and the follow-on papers that cite the current paper.</li>
+  <li>Indiana Jones: You will determine where this paper sits in the context of previous and subsequent work. Find and report an older paper cited by the current paper and a newer paper citing the current paper.</li>
+  <li>Code Ninja: Imagine this paper did not exist and you just had the core idea of the paper. Now implement a small but crucial part of the paper or a simplified version of the paper that would validate that the ideas in the paper will be a success.</li>
+  <li>Sherlock Holmes: Find out the background information on one of the paper authors. Where have they worked? What did they study? What background and/or previous projects might have led them to work on this one? Feel free to contact the authors and talk to them, but be courteous, polite and on topic. Mention that you are in Prof. Praneeth Chakravarthula’s course and this investigation is a part of it.</li>
+  <li>John Doe: If you are not in the presenting group, please come to the class with 1) a new tacky title for the paper and/or a new name for the algorithm it proposes, and 2) at least one question about the paper (either something you’re confused about or something you’d like to hear discussed more).</li>
+</ul>
+
+<hr />
+
+<h2 id="schedule-and-study-material">Schedule and Study Material:</h2>
+
+<p>Slides and any additional readings will be made available through Canvas and/or course website.</p>
+
+<p>Reading schedule (subject to change)</p>
+
+<p>Module One: Getting up to Speed – AL/ML and Diffractive Optics</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week:</th>
+      <th>Plan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Week 1</td>
+      <td>Plans</td>
+    </tr>
+    <tr>
+      <td>Week 2</td>
+      <td>plans</td>
+    </tr>
+    <tr>
+      <td>Week 3</td>
+      <td>plans</td>
+    </tr>
+    <tr>
+      <td>Week 4</td>
+      <td>plans</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Module Two: Optical Neural Networks</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week:</th>
+      <th>Plan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Week 5</td>
+      <td>Plans</td>
+    </tr>
+    <tr>
+      <td>Week 6</td>
+      <td>plans</td>
+    </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>plans</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>plans</td>
+    </tr>
+    <tr>
+      <td>Week 9</td>
+      <td>plans</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="projects-and-grading">Projects and Grading</h2>
+
+<p>Final Project:<br />
+All students in the class will write a “mini-paper” as a final project. The paper should extend one or more papers we covered in the class. Students should write code and carry out additional experiments and then write up the results in a standard conference paper format.</p>
+
+<p>Students are welcome to work in groups on the final project. I will expect a group of two students to put twice as much work into the final project than for a sole-author project, and similarly for larger groups. I’d encourage students to not work alone and I won’t allow groups with five or more people without special permission. Students in groups are required to include a “contributions” paragraph in their paper that concretely lists each author’s contributions. The maximum paper length for a given final project write-up is 3 + n_students not including references or the contributions paragraph, where n_students is the number of people in the group that worked on the project.</p>
+
+<p>All groups will be required to submit a project proposal by the start of class on October 14th. The project proposal is a single-paragraph description of what you intend to do (experiments, datasets, methods, etc.) Groups will present their final projects during the final exam period. All students in each group are required to present some material during the final presentation.</p>
+
+<p>Grade Distribution:<br />
+This course will use a standard, 100-point grading scale (grades correspond to 590/790 due to Graduate School standards) and the grade distribution will be as follows:</p>
+
+<p>Readings, 60 points:<br />
+There will be 24 papers, and each student will be in the presenting role for 12 and the non-presenting role for the other 12. You can earn up to 4 points each time you present for completing the assignment for your role and presenting it to the class. When you aren’t presenting, you can earn up to 1 point by completing the non-presenting assignment and by participating in the class through live discussion and questions.</p>
+
+<p>Final Project, 40 points:<br />
+This grade will be divided as follows:</p>
+<ul>
+  <li>Proposal: 5 points</li>
+  <li>Novelty, 5 points: your project should propose something new (either a new application, method or a perspective).</li>
+  <li>Writing, 10 points: your paper should be readable, complete and situate itself appropriately among the related works. You should use the format and style of a standard SIGGRAPH conference paper.</li>
+  <li>Presentation, 10 points: your final presentation should be clear and provide a solid picture of what you did.</li>
+  <li>Code, 10 points: the code you write and submit for your final project should allow for complete reproduction of your results and be well-documented.</li>
+</ul>
+
+<hr />
+<h2 id="course-policies">Course Policies</h2>
+
+<p>Attendance, late work, and honor code:<br />
+If you miss a class without completing the corresponding assignment, you’ll get a zero for that session. If you miss a class where you are in a “presenting” role for that session, you must still create the presentation for that role before the class and you must find someone else to present it for you. If you miss a class where you’d be in a “non-presenting” role, to get credit for that session you need to complete the non-presenting assignment and send it to me before the start of class. There’s really no way to accept late work for the readings since it’s vital that we’re all reading the same papers at the same time. I also can’t accept the final project after the scheduled final exam slot since you need to present it then.</p>
+
+<p>All students are expected to follow the guidelines of the UNC honor code. In the context of this class, it is particularly important that you cite the source of different ideas, facts, or methods and do not claim someone else’s work as your own. If you are unsure about which actions violate that honor code, feel free to ask me.</p>
+
+<p>The University of North Carolina at Chapel Hill facilitates the implementation of reasonable accommodations, including resources and services, for students with disabilities, chronic medical conditions, a temporary disability or pregnancy complications resulting in barriers to fully accessing University courses, programs and activities. Accommodations are determined through the Office of Accessibility Resources and Service (ARS) for individuals with documented qualifying disabilities in accordance with applicable state and federal laws. See the ARS Website for contact information: https://ars.unc.edu or email ars@unc.edu.</p>
+
+<p>CAPS is strongly committed to addressing the mental health needs of a diverse student body through timely access to consultation and connection to clinically appropriate services, whether for short or long-term needs. Go to their website: https://caps.unc.edu/ or visit their facilities on the third floor of the Campus Health Services building for a walk-in evaluation to learn more. (source: Student Safety and Wellness Proposal for EPC, Sep 2018)</p>
+
+<p>Any student who is impacted by discrimination, harassment, interpersonal (relationship)
+violence, sexual violence, sexual exploitation, or stalking is encouraged to seek resources
+on campus or in the community. Please contact the Director of Title IX Compliance
+(Adrienne Allison – Adrienne.allison@unc.edu), Report and Response Coordinators in the
+Equal Opportunity and Compliance Office (reportandresponse@unc.edu), Counseling and
+Psychological Services (confidential), or the Gender Violence Services Coordinators
+(gvsc@unc.edu; confidential) to discuss your specific needs. Additional resources are
+available at safe.unc.edu.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Monday/Wednesday, 10:10am-11:25am - FB141]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://aaravparakh.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs" /><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://aaravparakh.github.io/blog/2024/tabs</id><content type="html" xml:base="https://aaravparakh.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p>
+
+<h2 id="first-tabs">First tabs</h2>
+
+<p>To add tabs, use the following syntax:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
+
+<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
+
+Content 1
+
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+
+<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-2</span><span class="w"> </span><span class="cp">%}</span>
+
+Content 2
+
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
+</code></pre></div></div>
+
+<p>With this you can generate visualizations like:</p>
+
+<ul id="log" class="tab" data-tab="4d07a129-5288-4760-a1df-2b7a00311c48" data-name="log">
+  
+      <li class="active" id="log-php">
+          <a href="#">php </a>
+      </li>
+  
+      <li id="log-js">
+          <a href="#">js </a>
+      </li>
+  
+      <li id="log-ruby">
+          <a href="#">ruby </a>
+      </li>
+  
+</ul>
+<ul class="tab-content" id="4d07a129-5288-4760-a1df-2b7a00311c48" data-name="log">
+  
+      <li class="active">
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
+</code></pre></div></div>
+
+</li>
+  
+      <li>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
+</code></pre></div></div>
+
+</li>
+  
+      <li>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
+</code></pre></div></div>
+
+</li>
+  
+</ul>
+
+<h2 id="another-example">Another example</h2>
+
+<ul id="data-struct" class="tab" data-tab="1d750b8f-d9ac-4d5d-b6f1-d290cc07ceb3" data-name="data-struct">
+  
+      <li class="active" id="data-struct-yaml">
+          <a href="#">yaml </a>
+      </li>
+  
+      <li id="data-struct-json">
+          <a href="#">json </a>
+      </li>
+  
+</ul>
+<ul class="tab-content" id="1d750b8f-d9ac-4d5d-b6f1-d290cc07ceb3" data-name="data-struct">
+  
+      <li class="active">
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
+  <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
+</code></pre></div></div>
+
+</li>
+  
+      <li>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+</li>
+  
+</ul>
+
+<h2 id="tabs-for-something-else">Tabs for something else</h2>
+
+<ul id="something-else" class="tab" data-tab="5c5e3628-5f19-4937-a957-b1a299b1789d" data-name="something-else">
+  
+      <li class="active" id="something-else-text">
+          <a href="#">text </a>
+      </li>
+  
+      <li id="something-else-quote">
+          <a href="#">quote </a>
+      </li>
+  
+      <li id="something-else-list">
+          <a href="#">list </a>
+      </li>
+  
+</ul>
+<ul class="tab-content" id="5c5e3628-5f19-4937-a957-b1a299b1789d" data-name="something-else">
+  
+      <li class="active">
+<p>Regular text</p>
+
+</li>
+  
+      <li>
+<blockquote>
+  <p>A quote</p>
+</blockquote>
+
+</li>
+  
+      <li>
+<p>Hipster list</p>
+
+<ul>
+  <li>brunch</li>
+  <li>fixie</li>
+  <li>raybans</li>
+  <li>messenger bag</li>
+</ul>
+
+</li>
+  
+</ul>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="code" /><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://aaravparakh.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms" /><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://aaravparakh.github.io/blog/2024/typograms</id><content type="html" xml:base="https://aaravparakh.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
+</span><span class="sb">+----+
+|    |---&gt; My first diagram!
++----+</span>
+<span class="p">```</span>
+</code></pre></div></div>
+
+<p>Which generates:</p>
+
+<pre><code class="language-typograms">+----+
+|    |---&gt; My first diagram!
++----+
+</code></pre>
+
+<p>Another example:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
+</span><span class="sb">.------------------------.
+|.----------------------.|
+||"https://example.com" ||
+|'----------------------'|
+| ______________________ |
+||                      ||
+||   Welcome!           ||
+||                      ||
+||                      ||
+||  .----------------.  ||
+||  | username       |  ||
+||  '----------------'  ||
+||  .----------------.  ||
+||  |"*******"       |  ||
+||  '----------------'  ||
+||                      ||
+||  .----------------.  ||
+||  |   "Sign-up"    |  ||
+||  '----------------'  ||
+||                      ||
+|+----------------------+|
+.------------------------.</span>
+<span class="p">```</span>
+</code></pre></div></div>
+
+<p>which generates:</p>
+
+<pre><code class="language-typograms">.------------------------.
+|.----------------------.|
+||"https://example.com" ||
+|'----------------------'|
+| ______________________ |
+||                      ||
+||   Welcome!           ||
+||                      ||
+||                      ||
+||  .----------------.  ||
+||  | username       |  ||
+||  '----------------'  ||
+||  .----------------.  ||
+||  |"*******"       |  ||
+||  '----------------'  ||
+||                      ||
+||  .----------------.  ||
+||  |   "Sign-up"    |  ||
+||  '----------------'  ||
+||                      ||
+|+----------------------+|
+.------------------------.
+</code></pre>
+
+<p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="diagrams" /><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://aaravparakh.github.io/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited" /><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://aaravparakh.github.io/blog/2024/post-citation</id><content type="html" xml:base="https://aaravparakh.github.io/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="citation" /><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://aaravparakh.github.io/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code" /><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://aaravparakh.github.io/blog/2024/pseudocode</id><content type="html" xml:base="https://aaravparakh.github.io/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
+</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
+\begin{algorithm}
+\caption{Quicksort}
+\begin{algorithmic}
+\PROCEDURE{Quicksort}{$$A, p, r$$}
+    \IF{$$p &lt; r$$}
+        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
+        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
+        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
+    \ENDIF
+\ENDPROCEDURE
+\PROCEDURE{Partition}{$$A, p, r$$}
+    \STATE $$x = A[r]$$
+    \STATE $$i = p - 1$$
+    \FOR{$$j = p$$ \TO $$r - 1$$}
+        \IF{$$A[j] &lt; x$$}
+            \STATE $$i = i + 1$$
+            \STATE exchange
+            $$A[i]$$ with $$A[j]$$
+        \ENDIF
+        \STATE exchange $$A[i]$$ with $$A[r]$$
+    \ENDFOR
+\ENDPROCEDURE
+\end{algorithmic}
+\end{algorithm}</span>
+<span class="p">```</span>
+</code></pre></div></div>
+
+<p>Generates:</p>
+
+<pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
+\begin{algorithm}
+\caption{Quicksort}
+\begin{algorithmic}
+\PROCEDURE{Quicksort}{$$A, p, r$$}
+    \IF{$$p &lt; r$$}
+        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
+        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
+        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
+    \ENDIF
+\ENDPROCEDURE
+\PROCEDURE{Partition}{$$A, p, r$$}
+    \STATE $$x = A[r]$$
+    \STATE $$i = p - 1$$
+    \FOR{$$j = p$$ \TO $$r - 1$$}
+        \IF{$$A[j] &lt; x$$}
+            \STATE $$i = i + 1$$
+            \STATE exchange
+            $$A[i]$$ with $$A[j]$$
+        \ENDIF
+        \STATE exchange $$A[i]$$ with $$A[r]$$
+    \ENDFOR
+\ENDPROCEDURE
+\end{algorithmic}
+\end{algorithm}
+</code></pre>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="code" /><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://aaravparakh.github.io/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff" /><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://aaravparakh.github.io/blog/2024/code-diff</id><content type="html" xml:base="https://aaravparakh.github.io/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
+</span><span class="gh">diff --git a/sample.js b/sample.js
+index 0000001..0ddf2ba
+</span><span class="gd">--- a/sample.js
+</span><span class="gi">+++ b/sample.js
+</span><span class="p">@@ -1 +1 @@</span>
+<span class="gd">-console.log("Hello World!")
+</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
+<span class="p">```</span>
+</code></pre></div></div>
+
+<p>Which generates:</p>
+
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
+index 0000001..0ddf2ba
+</span><span class="gd">--- a/sample.js
+</span><span class="gi">+++ b/sample.js
+</span><span class="p">@@ -1 +1 @@</span>
+<span class="gd">-console.log("Hello World!")
+</span><span class="gi">+console.log("Hello from Diff2Html!")
+</span></code></pre></div></div>
+
+<p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
+</span><span class="sb">diff --git a/sample.js b/sample.js
+index 0000001..0ddf2ba
+--- a/sample.js
++++ b/sample.js
+@@ -1 +1 @@
+-console.log("Hello World!")
++console.log("Hello from Diff2Html!")</span>
+<span class="p">```</span>
+</code></pre></div></div>
+
+<p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p>
+
+<pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
+From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
+Date: Sun, 9 Oct 2016 16:41:54 +0100
+Subject: [PATCH 1/2] Initial template override support
+
+---
+ scripts/hulk.js                    |  4 ++--
+ src/diff2html.js                   |  3 +--
+ src/file-list-printer.js           | 11 ++++++++---
+ src/hoganjs-utils.js               | 29 +++++++++++++++++------------
+ src/html-printer.js                |  6 ++++++
+ src/line-by-line-printer.js        |  6 +++++-
+ src/side-by-side-printer.js        |  6 +++++-
+ test/file-list-printer-tests.js    |  2 +-
+ test/hogan-cache-tests.js          | 18 +++++++++++++++---
+ test/line-by-line-tests.js         |  3 +--
+ test/side-by-side-printer-tests.js |  3 +--
+ 11 files changed, 62 insertions(+), 29 deletions(-)
+
+diff --git a/scripts/hulk.js b/scripts/hulk.js
+index 5a793c18..a4b1a4d5 100755
+--- a/scripts/hulk.js
++++ b/scripts/hulk.js
+@@ -173,11 +173,11 @@ function namespace(name) {
+ // write a template foreach file that matches template extension
+ templates = extractFiles(options.argv.remain)
+   .map(function(file) {
+-    var openedFile = fs.readFileSync(file, 'utf-8');
++    var openedFile = fs.readFileSync(file, 'utf-8').trim();
+     var name;
+     if (!openedFile) return;
+     name = namespace(path.basename(file).replace(/\..*$/, ''));
+-    openedFile = removeByteOrderMark(openedFile.trim());
++    openedFile = removeByteOrderMark(openedFile);
+     openedFile = wrap(file, name, openedFile);
+     if (!options.outputdir) return openedFile;
+     fs.writeFileSync(path.join(options.outputdir, name + '.js')
+diff --git a/src/diff2html.js b/src/diff2html.js
+index 21b0119e..64e138f5 100644
+--- a/src/diff2html.js
++++ b/src/diff2html.js
+@@ -7,7 +7,6 @@
+
+ (function() {
+   var diffParser = require('./diff-parser.js').DiffParser;
+-  var fileLister = require('./file-list-printer.js').FileListPrinter;
+   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
+
+   function Diff2Html() {
+@@ -43,7 +42,7 @@
+
+     var fileList = '';
+     if (configOrEmpty.showFiles === true) {
+-      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
++      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
+     }
+
+     var diffOutput = '';
+diff --git a/src/file-list-printer.js b/src/file-list-printer.js
+index e408d9b2..1e0a2c61 100644
+--- a/src/file-list-printer.js
++++ b/src/file-list-printer.js
+@@ -8,11 +8,16 @@
+ (function() {
+   var printerUtils = require('./printer-utils.js').PrinterUtils;
+
+-  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
++  var hoganUtils;
++
+   var baseTemplatesPath = 'file-summary';
+   var iconsBaseTemplatesPath = 'icon';
+
+-  function FileListPrinter() {
++  function FileListPrinter(config) {
++    this.config = config;
++
++    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
++    hoganUtils = new HoganJsUtils(config);
+   }
+
+   FileListPrinter.prototype.generateFileList = function(diffFiles) {
+@@ -38,5 +43,5 @@
+     });
+   };
+
+-  module.exports.FileListPrinter = new FileListPrinter();
++  module.exports.FileListPrinter = FileListPrinter;
+ })();
+diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
+index 9949e5fa..0dda08d7 100644
+--- a/src/hoganjs-utils.js
++++ b/src/hoganjs-utils.js
+@@ -8,18 +8,19 @@
+ (function() {
+   var fs = require('fs');
+   var path = require('path');
+-
+   var hogan = require('hogan.js');
+
+   var hoganTemplates = require('./templates/diff2html-templates.js');
+
+-  var templatesPath = path.resolve(__dirname, 'templates');
++  var extraTemplates;
+
+-  function HoganJsUtils() {
++  function HoganJsUtils(configuration) {
++    this.config = configuration || {};
++    extraTemplates = this.config.templates || {};
+   }
+
+-  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
+-    var template = this.template(namespace, view, configuration);
++  HoganJsUtils.prototype.render = function(namespace, view, params) {
++    var template = this.template(namespace, view);
+     if (template) {
+       return template.render(params);
+     }
+@@ -27,17 +28,16 @@
+     return null;
+   };
+
+-  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
+-    var config = configuration || {};
++  HoganJsUtils.prototype.template = function(namespace, view) {
+     var templateKey = this._templateKey(namespace, view);
+
+-    return this._getTemplate(templateKey, config);
++    return this._getTemplate(templateKey);
+   };
+
+-  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
++  HoganJsUtils.prototype._getTemplate = function(templateKey) {
+     var template;
+
+-    if (!config.noCache) {
++    if (!this.config.noCache) {
+       template = this._readFromCache(templateKey);
+     }
+
+@@ -53,6 +53,7 @@
+
+     try {
+       if (fs.readFileSync) {
++        var templatesPath = path.resolve(__dirname, 'templates');
+         var templatePath = path.join(templatesPath, templateKey);
+         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
+         template = hogan.compile(templateContent);
+@@ -66,12 +67,16 @@
+   };
+
+   HoganJsUtils.prototype._readFromCache = function(templateKey) {
+-    return hoganTemplates[templateKey];
++    return extraTemplates[templateKey] || hoganTemplates[templateKey];
+   };
+
+   HoganJsUtils.prototype._templateKey = function(namespace, view) {
+     return namespace + '-' + view;
+   };
+
+-  module.exports.HoganJsUtils = new HoganJsUtils();
++  HoganJsUtils.prototype.compile = function(templateStr) {
++    return hogan.compile(templateStr);
++  };
++
++  module.exports.HoganJsUtils = HoganJsUtils;
+ })();
+diff --git a/src/html-printer.js b/src/html-printer.js
+index 585d5b66..13f83047 100644
+--- a/src/html-printer.js
++++ b/src/html-printer.js
+@@ -8,6 +8,7 @@
+ (function() {
+   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
+   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
++  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
+
+   function HtmlPrinter() {
+   }
+@@ -22,5 +23,10 @@
+     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
+   };
+
++  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
++    var fileListPrinter = new FileListPrinter(config);
++    return fileListPrinter.generateFileList(diffJson);
++  };
++
+   module.exports.HtmlPrinter = new HtmlPrinter();
+ })();
+diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
+index b07eb53c..d230bedd 100644
+--- a/src/line-by-line-printer.js
++++ b/src/line-by-line-printer.js
+@@ -11,7 +11,8 @@
+   var utils = require('./utils.js').Utils;
+   var Rematch = require('./rematch.js').Rematch;
+
+-  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
++  var hoganUtils;
++
+   var genericTemplatesPath = 'generic';
+   var baseTemplatesPath = 'line-by-line';
+   var iconsBaseTemplatesPath = 'icon';
+@@ -19,6 +20,9 @@
+
+   function LineByLinePrinter(config) {
+     this.config = config;
++
++    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
++    hoganUtils = new HoganJsUtils(config);
+   }
+
+   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
+diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
+index bbf1dc8d..5e3033b3 100644
+--- a/src/side-by-side-printer.js
++++ b/src/side-by-side-printer.js
+@@ -11,7 +11,8 @@
+   var utils = require('./utils.js').Utils;
+   var Rematch = require('./rematch.js').Rematch;
+
+-  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
++  var hoganUtils;
++
+   var genericTemplatesPath = 'generic';
+   var baseTemplatesPath = 'side-by-side';
+   var iconsBaseTemplatesPath = 'icon';
+@@ -26,6 +27,9 @@
+
+   function SideBySidePrinter(config) {
+     this.config = config;
++
++    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
++    hoganUtils = new HoganJsUtils(config);
+   }
+
+   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
+diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
+index a502a46f..60ea3208 100644
+--- a/test/file-list-printer-tests.js
++++ b/test/file-list-printer-tests.js
+@@ -1,6 +1,6 @@
+ var assert = require('assert');
+
+-var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
++var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
+
+ describe('FileListPrinter', function() {
+   describe('generateFileList', function() {
+diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
+index 190bf6f8..3bb754ac 100644
+--- a/test/hogan-cache-tests.js
++++ b/test/hogan-cache-tests.js
+@@ -1,6 +1,6 @@
+ var assert = require('assert');
+
+-var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
++var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
+ var diffParser = require('../src/diff-parser.js').DiffParser;
+
+ describe('HoganJsUtils', function() {
+@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
+       });
+       assert.equal(emptyDiffHtml, result);
+     });
++
+     it('should render view without cache', function() {
+       var result = HoganJsUtils.render('generic', 'empty-diff', {
+         contentClass: 'd2h-code-line',
+         diffParser: diffParser
+       }, {noCache: true});
+-      assert.equal(emptyDiffHtml + '\n', result);
++      assert.equal(emptyDiffHtml, result);
+     });
++
+     it('should return null if template is missing', function() {
+-      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
++      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
++      var result = hoganUtils.render('generic', 'missing-template', {});
+       assert.equal(null, result);
+     });
++
++    it('should allow templates to be overridden', function() {
++      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
++
++      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
++      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
++      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
++      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
++    });
+   });
+ });
+diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
+index 1cd92073..8869b3df 100644
+--- a/test/line-by-line-tests.js
++++ b/test/line-by-line-tests.js
+@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
+         '            File without changes\n' +
+         '        &lt;/div&gt;\n' +
+         '    &lt;/td&gt;\n' +
+-        '&lt;/tr&gt;\n';
++        '&lt;/tr&gt;';
+
+       assert.equal(expected, fileHtml);
+     });
+@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
+         '        &lt;/div&gt;\n' +
+         '    &lt;/td&gt;\n' +
+         '&lt;/tr&gt;\n' +
+-        '\n' +
+         '                &lt;/tbody&gt;\n' +
+         '            &lt;/table&gt;\n' +
+         '        &lt;/div&gt;\n' +
+diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
+index 76625f8e..771daaa5 100644
+--- a/test/side-by-side-printer-tests.js
++++ b/test/side-by-side-printer-tests.js
+@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
+         '            File without changes\n' +
+         '        &lt;/div&gt;\n' +
+         '    &lt;/td&gt;\n' +
+-        '&lt;/tr&gt;\n';
++        '&lt;/tr&gt;';
+
+       assert.equal(expectedRight, fileHtml.right);
+       assert.equal(expectedLeft, fileHtml.left);
+@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
+         '        &lt;/div&gt;\n' +
+         '    &lt;/td&gt;\n' +
+         '&lt;/tr&gt;\n' +
+-        '\n' +
+         '                    &lt;/tbody&gt;\n' +
+         '                &lt;/table&gt;\n' +
+         '            &lt;/div&gt;\n' +
+
+From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
+From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
+Date: Sat, 15 Oct 2016 13:21:22 +0100
+Subject: [PATCH 2/2] Allow uncompiled templates
+
+---
+ README.md                 |  3 +++
+ src/hoganjs-utils.js      |  7 +++++++
+ test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
+ 3 files changed, 33 insertions(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index 132c8a28..46909f25 100644
+--- a/README.md
++++ b/README.md
+@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
+   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
+   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
+   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
++  - `templates`: object with previously compiled templates to replace parts of the html
++  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
++  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
+
+ ## Diff2HtmlUI Helper
+
+diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
+index 0dda08d7..b2e9c275 100644
+--- a/src/hoganjs-utils.js
++++ b/src/hoganjs-utils.js
+@@ -17,6 +17,13 @@
+   function HoganJsUtils(configuration) {
+     this.config = configuration || {};
+     extraTemplates = this.config.templates || {};
++
++    var rawTemplates = this.config.rawTemplates || {};
++    for (var templateName in rawTemplates) {
++      if (rawTemplates.hasOwnProperty(templateName)) {
++        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
++      }
++    }
+   }
+
+   HoganJsUtils.prototype.render = function(namespace, view, params) {
+diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
+index 3bb754ac..a34839c0 100644
+--- a/test/hogan-cache-tests.js
++++ b/test/hogan-cache-tests.js
+@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
+       assert.equal(null, result);
+     });
+
+-    it('should allow templates to be overridden', function() {
++    it('should allow templates to be overridden with compiled templates', function() {
+       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
+
+       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
+@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
+       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
+       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
+     });
++
++    it('should allow templates to be overridden with uncompiled templates', function() {
++      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
++
++      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
++      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
++      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
++      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
++    });
++
++    it('should allow templates to be overridden giving priority to compiled templates', function() {
++      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
++      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
++
++      var config = {
++        templates: {'generic-empty-diff': emptyDiffTemplate},
++        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
++      };
++      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
++      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
++      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
++    });
+   });
+ });
+</code></pre>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="code" /><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry><entry><title type="html">a post with advanced image components</title><link href="https://aaravparakh.github.io/blog/2024/advanced-images/" rel="alternate" type="text/html" title="a post with advanced image components" /><published>2024-01-27T11:46:00+00:00</published><updated>2024-01-27T11:46:00+00:00</updated><id>https://aaravparakh.github.io/blog/2024/advanced-images</id><content type="html" xml:base="https://aaravparakh.github.io/blog/2024/advanced-images/"><![CDATA[<p>This is an example post with advanced image components.</p>
+
+<h2 id="image-slider">Image Slider</h2>
+
+<p>This is a simple image slider. It uses the <a href="https://swiperjs.com/">Swiper</a> library. Check the <a href="https://swiperjs.com/demos">examples page</a> for more information of what you can achieve with it.</p>
+
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/9-480.webp 480w,/assets/img/9-800.webp 800w,/assets/img/9-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/7-480.webp 480w,/assets/img/7-800.webp 800w,/assets/img/7-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/8-480.webp 480w,/assets/img/8-800.webp 800w,/assets/img/8-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/10-480.webp 480w,/assets/img/10-800.webp 800w,/assets/img/10-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+  <swiper-slide>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/12-480.webp 480w,/assets/img/12-800.webp 800w,/assets/img/12-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+</swiper-slide>
+</swiper-container>
+
+<h2 id="image-comparison-slider">Image Comparison Slider</h2>
+
+<p>This is a simple image comparison slider. It uses the <a href="https://img-comparison-slider.sneas.io/">img-comparison-slider</a> library. Check the <a href="https://img-comparison-slider.sneas.io/examples.html">examples page</a> for more information of what you can achieve with it.</p>
+
+<img-comparison-slider>
+  
+
+<figure slot="first">
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+  
+
+<figure slot="second">
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/prof_pic_color-480.webp 480w,/assets/img/prof_pic_color-800.webp 800w,/assets/img/prof_pic_color-1400.webp 1400w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+</img-comparison-slider>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="images" /><summary type="html"><![CDATA[this is what advanced image components could look like]]></summary></entry></feed>
