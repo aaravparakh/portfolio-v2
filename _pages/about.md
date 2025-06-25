@@ -15,7 +15,7 @@ profile:
      <p> <small>Dept. of Applied Physical Sciences (Adjunct)</small></p> 
      <p> <small> UNC Chapel Hill</small> </p> 
      <br>
-     <p> <a href = "https://www.cs.unc.edu/~cpk/data/personal/Praneeth_CV.pdf"> <bold> CV </bold></a>  | </p> 
+     <p><a href="/cv/"><strong>CV</strong></a> | </p>
      
      <p><a href = "mailto:cpk@cs.unc.edu"><i class="far fa-envelope"></i></a> </p>
      <p><a href = "https://x.com/praneethchk"><i class="fab fa-x-twitter"></i></a> </p>  
